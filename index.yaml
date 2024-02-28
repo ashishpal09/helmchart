@@ -3,9 +3,9 @@ entries:
   cronjob:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-08-21T09:54:58.591210561Z"
+    created: "2024-02-28T19:58:26.375299085Z"
     description: A chart for cron jobs
-    digest: 808d18c03da388062d26804f1c27b783bca868406b34be5d0e1df9716396fead
+    digest: 59d286b30865c9f0e128c35189f18f880906d6068cda01cb3292b22b10eee4d3
     home: https://github.com/clouddrove/helmchart
     keywords:
     - cronjob
@@ -38,9 +38,9 @@ entries:
   helmchart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-08-21T09:54:58.592395356Z"
+    created: "2024-02-28T19:58:26.376176405Z"
     description: A Helm chart for Kubernetes
-    digest: 60f787eb34d783f552604b0a59d543b81199e3ced1c9e3bd27f9eafb7f5bf346
+    digest: 9c5c149043d9e1949c5a6c882189465b8f5bdac9fa4d34f9dad198cdeedc3219
     home: https://github.com/clouddrove/helmchart
     icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
     keywords:
@@ -136,4 +136,4 @@ entries:
     urls:
     - https://charts.clouddrove.com/helmchart-0.0.4.tgz
     version: 0.0.4
-generated: "2023-08-21T09:54:58.590236366Z"
+generated: "2024-02-28T19:58:26.373664992Z"
