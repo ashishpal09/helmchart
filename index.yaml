@@ -1,11 +1,22 @@
 apiVersion: v1
 entries:
+  cloudflared-token:
+  - apiVersion: v2
+    appVersion: 2024.3.0
+    created: "2025-08-14T09:50:42.6116581Z"
+    description: Run Cloudflare Tunnel with token (no autoupdate)
+    digest: d87b5e179bfc785edaf86c949007c7d452427c5de441d9ddb393ed0a3a76ebc7
+    name: cloudflared-token
+    type: application
+    urls:
+    - https://charts.clouddrove.com/charts/cloudflared-token-0.1.0.tgz
+    version: 0.1.0
   cronjob:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-05-06T16:10:30.366325888Z"
+    created: "2025-08-14T09:50:42.612186339Z"
     description: A chart for cron jobs
-    digest: bb13fc2f4d99b187b36e129eaf2b911a65012ccf276245a90007b171052d07ed
+    digest: da912c9495b61c8a56b05f6692ccb71c4bf90da3e684fcfc477f3d47cc94609b
     home: https://github.com/clouddrove/helmchart
     keywords:
     - cronjob
@@ -38,9 +49,9 @@ entries:
   helmchart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-05-06T16:10:30.367222389Z"
+    created: "2025-08-14T09:50:42.613191521Z"
     description: A Helm chart for Kubernetes
-    digest: 0c673bdd3605a49ba4786e980f00abf66deb60c52dd710af91ecee24a7b3f7f9
+    digest: a70b27e05dd10ce4be393e186cc836a591686b35f54807f750bfe3784b510b95
     home: https://github.com/clouddrove/helmchart
     icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
     keywords:
@@ -136,4 +147,25 @@ entries:
     urls:
     - https://charts.clouddrove.com/helmchart-0.0.4.tgz
     version: 0.0.4
-generated: "2025-05-06T16:10:30.365682298Z"
+  vigil:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-08-14T09:50:42.614402678Z"
+    description: A Helm chart for Kubernetes
+    digest: 3505f3f1989e778bb76e07e2052eb9468bd66de7539c07473db976640120cc77
+    home: https://github.com/clouddrove/vigil
+    icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
+    keywords:
+    - helm
+    - chart
+    - k8s
+    - helm-chart
+    maintainers:
+    - email: hello@clouddrove.com
+      name: Clouddrove Inc
+    name: vigil
+    type: application
+    urls:
+    - https://charts.clouddrove.com/charts/vigil-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-08-14T09:50:42.611104273Z"
