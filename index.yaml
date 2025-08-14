@@ -11,12 +11,31 @@ entries:
     urls:
     - https://charts.clouddrove.com/charts/cloudflared-token-0.1.0.tgz
     version: 0.1.0
+  cloudflared-tunnel:
+  - apiVersion: v2
+    appVersion: 2024.3.0
+    created: "2025-08-14T11:26:34.411241917Z"
+    description: Run Cloudflare Tunnel with token (no autoupdate)
+    digest: 520cdfd3a2f1231f62f7f345f9fa52e167346edaa8178c243e0e63f776504ba1
+    keywords:
+    - helm
+    - chart
+    - k8s
+    - helm-chart
+    maintainers:
+    - email: hello@clouddrove.com
+      name: Clouddrove Inc
+    name: cloudflared-tunnel
+    type: application
+    urls:
+    - https://charts.clouddrove.com/charts/cloudflared-tunnel-0.1.0.tgz
+    version: 0.1.0
   cronjob:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-14T09:50:42.612186339Z"
+    created: "2025-08-14T11:26:34.411746155Z"
     description: A chart for cron jobs
-    digest: da912c9495b61c8a56b05f6692ccb71c4bf90da3e684fcfc477f3d47cc94609b
+    digest: 44318e73b98e2a53b8cac0b83367e93a7ec59b4a73e83210d1a14f71d0b117ad
     home: https://github.com/clouddrove/helmchart
     keywords:
     - cronjob
@@ -49,9 +68,9 @@ entries:
   helmchart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-14T09:50:42.613191521Z"
+    created: "2025-08-14T11:26:34.412639944Z"
     description: A Helm chart for Kubernetes
-    digest: a70b27e05dd10ce4be393e186cc836a591686b35f54807f750bfe3784b510b95
+    digest: 76ce9413afcd3082baaff5be63f0ac968e731d3cae6ed1c221309337fefb6490
     home: https://github.com/clouddrove/helmchart
     icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
     keywords:
@@ -150,9 +169,9 @@ entries:
   vigil:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-14T09:50:42.614402678Z"
+    created: "2025-08-14T11:26:34.413704244Z"
     description: A Helm chart for Kubernetes
-    digest: 3505f3f1989e778bb76e07e2052eb9468bd66de7539c07473db976640120cc77
+    digest: dd7eaf9a6a2420500168249ce67a42b7480d8668d5d2ae85d548840965796eb3
     home: https://github.com/clouddrove/vigil
     icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
     keywords:
@@ -168,4 +187,4 @@ entries:
     urls:
     - https://charts.clouddrove.com/charts/vigil-1.0.1.tgz
     version: 1.0.1
-generated: "2025-08-14T09:50:42.611104273Z"
+generated: "2025-08-14T11:26:34.410484473Z"
