@@ -14,9 +14,9 @@ entries:
   cloudflared-tunnel:
   - apiVersion: v2
     appVersion: 2024.3.0
-    created: "2025-08-18T08:41:29.485271022Z"
+    created: "2025-08-18T22:34:10.663662613Z"
     description: Run Cloudflare Tunnel with token (no autoupdate)
-    digest: 0a1b1958c3a32a3b7e2974b797da4550cb7ff6fc199cec98ae5392ab708a6e30
+    digest: 7eb72900783e6beb45962c69a04b6f013b87af372d1d50ac94e18d0a16ec9a3c
     keywords:
     - helm
     - chart
@@ -33,9 +33,9 @@ entries:
   cronjob:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-18T08:41:29.485881783Z"
+    created: "2025-08-18T22:34:10.664235417Z"
     description: A chart for cron jobs
-    digest: 2166f9160cf7175590e033ccabcf981358b179e3f4c6df7d00a0aa7ee9f64ea9
+    digest: 337180b2048d7df219d5f3b69693daf15e6aa7fb080f9b0bf12828ab49b9ed9e
     home: https://github.com/clouddrove/helmchart
     keywords:
     - cronjob
@@ -68,9 +68,9 @@ entries:
   helmchart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-18T08:41:29.486798355Z"
+    created: "2025-08-18T22:34:10.665217279Z"
     description: A Helm chart for Kubernetes
-    digest: a4cbf0678e89f91d4db0020807fc169b21bdeea7bf3a21198a86f7be4e67c27f
+    digest: eb81a0d5463f2ff08334ce886545c86425a32cdf0c700060bb6f32be67d5916e
     home: https://github.com/clouddrove/helmchart
     icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
     keywords:
@@ -166,12 +166,32 @@ entries:
     urls:
     - https://charts.clouddrove.com/helmchart-0.0.4.tgz
     version: 0.0.4
+  rbac:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-08-18T22:34:10.665425009Z"
+    description: Per-user namespace RBAC using ServiceAccounts and RoleBindings (no
+      SSO).
+    digest: 387d6059dad9fb1f32f9c27b73ef06abc37f170492af9ecf3ac746c727e65225
+    keywords:
+    - helm
+    - chart
+    - k8s
+    - rbac
+    maintainers:
+    - email: hello@clouddrove.com
+      name: Clouddrove Inc.
+    name: rbac
+    type: application
+    urls:
+    - https://charts.clouddrove.com/charts/rbac-0.1.0.tgz
+    version: 0.1.0
   vigil:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-18T08:41:29.487926894Z"
+    created: "2025-08-18T22:34:10.666599462Z"
     description: A Helm chart for Kubernetes
-    digest: 9f64a77034725acbd7ade7d47342645a08db63de3e67c191d268571ef02646d1
+    digest: 7f10bac84e9aef52b9801d81d5a07330853763fb9d6462cb690cf1dad512c220
     home: https://github.com/clouddrove/vigil
     icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
     keywords:
@@ -187,4 +207,4 @@ entries:
     urls:
     - https://charts.clouddrove.com/charts/vigil-1.0.1.tgz
     version: 1.0.1
-generated: "2025-08-18T08:41:29.484666984Z"
+generated: "2025-08-18T22:34:10.66305881Z"
