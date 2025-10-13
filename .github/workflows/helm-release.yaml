@@ -40,7 +40,7 @@ jobs:
       - name: Helm package
         uses: stefanprodan/helm-gh-pages@master
         with:
-          token: ${{ secrets.GITHUB }}
+          token: ${{ secrets.TOKEN }}
           charts_url: https://charts.clouddrove.com/
           charts_dir: ./charts
           # branch: master
@@ -55,4 +55,4 @@ jobs:
           mark_as_latest: true
           skip_existing: true
         env:
-          CR_TOKEN: "${{ secrets.GITHUB }}"
+          CR_TOKEN: "${{ secrets.TOKEN }}"
