@@ -12,7 +12,7 @@ Vigil is a tool for endpoint monitoring and health checkup, designed to provide 
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| Clouddrove Inc | <ashish.pal@clouddrove.com> |  |
+| Clouddrove Inc | <hello@clouddrove.com> |  |
 
 ## Values
 

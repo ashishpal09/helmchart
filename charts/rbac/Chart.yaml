@@ -3,31 +3,12 @@ name: rbac
 description: Per-user namespace RBAC using ServiceAccounts and RoleBindings (no SSO).
 type: application
 version: 0.1.0
-appVersion: "1.0.0"
-
-home: https://clouddrove.github.io/helmchart
-sources:
-  - https://github.com/clouddrove/helmchart
-
-icon: https://raw.githubusercontent.com/clouddrove/helmchart/main/charts/rbac/icon.png
-
+appVersion: "1.0"
 keywords:
-  - helm
-  - chart
-  - k8s
-  - rbac
-  - security
-
+- helm
+- chart
+- k8s
+- rbac
 maintainers:
-  - name: CloudDrove Inc
-    email: ashish.pal@clouddrove.com
-
-annotations:
-  artifacthub.io/license: MIT
-  artifacthub.io/changes: |
-    - "Initial release for RBAC chart"
-  artifacthub.io/links: |
-    - name: Source
-      url: https://github.com/clouddrove/helmchart
-    - name: Documentation
-      url: https://github.com/clouddrove/helmchart/tree/main/charts/rbac
+- email: hello@clouddrove.com
+  name: Clouddrove Inc.

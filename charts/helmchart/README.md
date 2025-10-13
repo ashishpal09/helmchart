@@ -10,7 +10,7 @@ A Helm chart for Kubernetes
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| CloudDrove Inc | <ashish.pal@clouddrove.com> |  |
+| CloudDrove Inc | <hello@clouddrove.com> |  |
 
 ## Values
 

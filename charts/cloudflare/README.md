@@ -20,7 +20,7 @@ A Helm chart for deploying Cloudflare Tunnel (cloudflared) in Kubernetes with to
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| CloudDrove Inc | <ashish.pal@clouddrove.com> |  |
+| CloudDrove Inc | <hello@clouddrove.com> |  |
 
 ## Values
 
