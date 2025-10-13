@@ -41,9 +41,11 @@ jobs:
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: ${{ secrets.TOKEN }}
+          owner: ashishpal09
+          repository: helmchart
+          branch: feat/helmchart  # or master, depending on your default branch
           charts_url: https://charts.clouddrove.com/
           charts_dir: ./charts
-          # branch: master
           target_dir: ./charts
           index_dir: .
        
