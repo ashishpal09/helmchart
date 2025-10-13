@@ -3,7 +3,7 @@ name: Helm Docs
 on:
   push:
     branches:
-      - master
+      - feat/*
     paths:
       - 'charts/helmchart/**'
       - 'charts/cronjob/**'
