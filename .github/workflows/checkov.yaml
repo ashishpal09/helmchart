@@ -2,7 +2,7 @@ name: Security Scan
 
 on:
   pull_request:
-    branches: [master]
+    branches: [feat/*]
     types: [opened, synchronize]
 
 jobs:
