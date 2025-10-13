@@ -68,6 +68,7 @@ jobs:
       - name: Configure kubeconfig
         run: |
           # Use input if provided, otherwise fallback to GitHub secret
+          mkdir -p $HOME/.kube
           KUBECONFIG_B64="${{ inputs.kubeconfig || secrets.CLUSTER_KUBECONFIG }}"
           echo "$KUBECONFIG_B64" | base64 -d > $HOME/.kube/config
           kubectl cluster-info
