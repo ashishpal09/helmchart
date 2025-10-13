@@ -3,7 +3,7 @@ displayName: cronjob
 version: 1.0.0
 createdAt: 2025-10-13T00:00:00Z
 description: A Helm chart for deploying Cloudflare DDNS configuration
-homeURL: https://github.com/ashishpal09/helmchart/blob/master/charts/cronjob
+homeURL: https://github.com/ashishpal09/helmchart/tree/master/charts/cronjob
 keywords:
   - cronjob
 maintainers:
