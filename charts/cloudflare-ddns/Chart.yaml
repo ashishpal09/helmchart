@@ -1,18 +1,35 @@
 apiVersion: v2
 name: cloudflare-ddns
-description: Cloudflare DDNS updater
+description: Cloudflare DDNS updater for dynamic DNS management using Cloudflare API.
 type: application
 version: 0.1.1
-appVersion: "1"
+appVersion: "1.0.0"
+
+home: https://clouddrove.github.io/helmchart
 sources:
   - https://github.com/favonia/cloudflare-ddns
+  - https://github.com/clouddrove/helmchart
+
+icon: https://raw.githubusercontent.com/clouddrove/helmchart/main/charts/cloudflare-ddns/icon.png
+
 keywords:
-    - helm
-    - chart  
-    - k8s
-    - cloudflare
-    - cloudflare-ddns
-home: https://github.com/clouddrove/helmchart
+  - helm
+  - chart
+  - k8s
+  - cloudflare
+  - ddns
+  - cloudflare-ddns
+
 maintainers:
-    - name: CloudDrove Inc
-      email: hello@clouddrove.com
+  - name: CloudDrove Inc
+    email: ashish.pal@clouddrove.com
+
+annotations:
+  artifacthub.io/license: MIT
+  artifacthub.io/changes: |
+    - "Initial stable release for cloudflare-ddns"
+  artifacthub.io/links: |
+    - name: Source
+      url: https://github.com/clouddrove/helmchart
+    - name: Documentation
+      url: https://github.com/clouddrove/helmchart/tree/main/charts/cloudflare-ddns

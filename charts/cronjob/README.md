@@ -10,7 +10,7 @@ A chart for cron jobs
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| CloudDrove Inc. | <hello@clouddrove.com> |  |
+| CloudDrove Inc. | <ashish.pal@clouddrove.com> |  |
 
 ## Values
 

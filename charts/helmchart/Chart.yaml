@@ -1,16 +1,32 @@
 apiVersion: v2
 name: helmchart
+description: A reusable Helm chart template for Kubernetes applications.
 type: application
-description: A Helm chart for Kubernetes
 version: 1.0.1
-appVersion: 1.0.1
+appVersion: "1.0.1"
+
+home: https://clouddrove.github.io/helmchart
+sources:
+  - https://github.com/clouddrove/helmchart
+
 icon: https://emojis.slackmojis.com/emojis/images/1643514183/1491/kubernetes.png?1643514183
+
 keywords:
-    - helm
-    - chart  
-    - k8s
-    - helm-chart 
-home: https://github.com/clouddrove/helmchart
+  - helm
+  - chart
+  - k8s
+  - template
+
 maintainers:
-    - name: CloudDrove Inc
-      email: hello@clouddrove.com
+  - name: CloudDrove Inc
+    email: ashish.pal@clouddrove.com
+
+annotations:
+  artifacthub.io/license: MIT
+  artifacthub.io/changes: |
+    - "Initial release of generic helmchart"
+  artifacthub.io/links: |
+    - name: Source
+      url: https://github.com/clouddrove/helmchart
+    - name: Documentation
+      url: https://github.com/clouddrove/helmchart/tree/main/charts/helmchart
