@@ -24,7 +24,7 @@ on:
         type: string
   push:
     branches:
-      - master
+      - test
 
 jobs:
   drift-detect:
