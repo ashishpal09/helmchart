@@ -26,7 +26,6 @@ jobs:
           mkdir -p packages
           helm package charts/* -d packages
           helm repo index packages --url https://clouddrove.github.io/helmchart
-
       - name: Copy Artifact Hub metadata file
         run: cp .artifacthub-repo.yml packages/
 
@@ -34,15 +33,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
           # Fetch gh-pages branch and set up worktree
           git fetch origin gh-pages || git checkout --orphan gh-pages
           git worktree add gh-pages-temp gh-pages
-
           # Replace contents with newly built charts
           rm -rf gh-pages-temp/*
           cp -r packages/* gh-pages-temp/
-
           # Commit and push
           cd gh-pages-temp
           git add .
