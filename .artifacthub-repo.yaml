@@ -1,0 +1,14 @@
+repositoryID: 9d674d90-1dc3-4a6d-b85a-94bfe87bbf19
+name: clouddrove
+displayName: Clouddrove
+description: A collection of Helm charts maintained by Akon Verma for Clouddrove
+homeURL: https://github.com/clouddrove/helmchart
+repoURL: https://github.com/clouddrove/helmchart
+type: helm
+publisher:
+  name: Anmol Nagpal
+  email: anmol@clouddrove.com
+  url: https://github.com/clouddrove/helmchart
+owners:
+  - name: Anmol Nagpal
+    email: anmol@clouddrove.com
