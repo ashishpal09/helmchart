@@ -17,15 +17,14 @@ jobs:
           fetch-depth: 0  # important for pushing to other branches
 
       - name: Set up Helm
-        uses: actions/setup-helm@v4
-        with:
-          version: latest
+        uses: azure/setup-helm@v3
 
       - name: Package Helm charts
         run: |
           mkdir -p packages
           helm package charts/* -d packages
           helm repo index packages --url https://clouddrove.github.io/helmchart
+
       - name: Copy Artifact Hub metadata file
         run: cp .artifacthub-repo.yml packages/
 
@@ -33,14 +32,17 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Fetch gh-pages branch and set up worktree
-          git fetch origin gh-pages || git checkout --orphan gh-pages
+
+          # Clone the gh-pages branch into a temp folder
+          git fetch origin gh-pages
           git worktree add gh-pages-temp gh-pages
-          # Replace contents with newly built charts
+
+          # Copy the packaged charts and index.yaml
           rm -rf gh-pages-temp/*
           cp -r packages/* gh-pages-temp/
+
           # Commit and push
           cd gh-pages-temp
           git add .
-          git commit -m "Publish Helm charts from ${GITHUB_REF_NAME} [skip ci]" || echo "No changes to commit"
+          git commit -m "Publish Helm charts from feat/github-action [skip ci]" || echo "No changes to commit"
           git push origin gh-pages
